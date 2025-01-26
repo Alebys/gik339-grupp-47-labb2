@@ -1,0 +1,52 @@
+h1 {
+  color: rgb(255, 254, 254);
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(172, 119, 119);
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 37.5rem;
+}
+
+.user-item {
+  border: .01rem solid rgb(12, 11, 11); 
+  border-radius: .5rem; 
+  padding: .9rem; 
+  margin-bottom: .6rem; 
+}
+
+.user-item h2 {
+  margin: 0 0 1rem;
+  color: rgb(255, 254, 254);
+}
+
+.user-item p {
+  margin: 0;
+  color: rgb(255, 254, 254);
+}
+
+.red {
+  background-color: rgb(163, 38, 38); 
+}
+.yellow {
+  background-color: rgb(153, 132, 15); 
+}
+.purple {
+  background-color: rgb(58, 49, 80); 
+}
+.green {
+  background-color: rgb(26, 112, 45); 
+}
+.gray {
+  background-color: rgb(75, 74, 74); 
+}
+
+
+
