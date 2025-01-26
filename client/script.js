@@ -21,9 +21,12 @@ async function fetchUsers() {
       nameHeading.textContent = `${user.firstName} ${user.lastName}`;
       const usernamePara = document.createElement('p');
       usernamePara.textContent = `Username: ${user.username}`;
+      const colorPara = document.createElement('p');
+      colorPara.textContent = `Favorite color: ${user.color}`;
       
       userItem.appendChild(nameHeading);
       userItem.appendChild(usernamePara);
+      userItem.appendChild(colorPara);
       userList.appendChild(userItem);
     }
   } catch (error) {

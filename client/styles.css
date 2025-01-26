@@ -29,6 +29,7 @@ body {
 
 .user-item p {
   margin: 0;
+  padding: .5rem;
   color: rgb(255, 254, 254);
 }
 
@@ -47,6 +48,5 @@ body {
 .gray {
   background-color: rgb(75, 74, 74); 
 }
-
 
 
